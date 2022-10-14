@@ -1,182 +1,186 @@
 {
-    "FullRTcharinHash": {
-        "Frtcharinhash_30%": {
-            "length": 4500090,
-            "unique": 2863830,
-            "collisions_rate": 36.360606121210914,
-            "coverage": 19.381191656713817,
-            "passwords_cracked": 19.251
+    "FullRT": {
+        "endhash": {
+            "FrtEndHash_30%": {
+                "length": 4500090,
+                "unique": 3600439,
+                "collisions_rate": 19.991844607552288,
+                "coverage": 24.366250198966778,
+                "passwords_cracked": 24.219
+            },
+            "FrtEndHash_50%": {
+                "length": 7500150,
+                "unique": 5272033,
+                "collisions_rate": 29.707632514016392,
+                "coverage": 35.67889225041986,
+                "passwords_cracked": 35.822
+            },
+            "FrtEndHash_70%": {
+                "length": 10350207,
+                "unique": 6754499,
+                "collisions_rate": 34.7404452877126,
+                "coverage": 45.71159589224284,
+                "passwords_cracked": 45.791
+            },
+            "FrtEndHash_100%": {
+                "length": 14800296,
+                "unique": 8231389,
+                "collisions_rate": 44.38361908437507,
+                "coverage": 55.70656352156583,
+                "passwords_cracked": 55.777
+            }
         },
-        "Frtcharinhash_50%": {
-            "length": 7500150,
-            "unique": 4197245,
-            "collisions_rate": 44.03785257628181,
-            "coverage": 28.405181094961566,
-            "passwords_cracked": 28.456
+        "xorshift": {
+            "FrtXorShift_30%": {
+                "length": 4500090,
+                "unique": 3640850,
+                "collisions_rate": 19.093840345415312,
+                "coverage": 24.63973477592821,
+                "passwords_cracked": 24.471
+            },
+            "FrtXorShift_50%": {
+                "length": 7500150,
+                "unique": 5436033,
+                "collisions_rate": 27.521009579808407,
+                "coverage": 36.7887749710077,
+                "passwords_cracked": 36.745
+            },
+            "FrtXorShift_70%": {
+                "length": 10350207,
+                "unique": 6814433,
+                "collisions_rate": 34.161384405162146,
+                "coverage": 46.11720388599718,
+                "passwords_cracked": 46.095
+            },
+            "FrtXorShift_100%": {
+                "length": 14800296,
+                "unique": 8298280,
+                "collisions_rate": 43.9316619073024,
+                "coverage": 56.159253552436816,
+                "passwords_cracked": 56.101
+            }
         },
-        "Frtcharinhash_70%": {
-            "length": 10350207,
-            "unique": 5386494,
-            "collisions_rate": 47.95762055773377,
-            "coverage": 36.453515946036966,
-            "passwords_cracked": 36.748
-        },
-        "Frtcharinhash_100%": {
-            "length": 14800296,
-            "unique": 6736955,
-            "collisions_rate": 54.48094416490048,
-            "coverage": 45.5928655114502,
-            "passwords_cracked": 45.54
+        "charinhash": {
+            "Frtcharinhash_30%": {
+                "length": 4500090,
+                "unique": 772284,
+                "collisions_rate": 82.83847656380206,
+                "coverage": 5.2264918718686415,
+                "passwords_cracked": 5.223
+            },
+            "Frtcharinhash_50%": {
+                "length": 7500150,
+                "unique": 943703,
+                "collisions_rate": 87.41754498243368,
+                "coverage": 6.386583250407949,
+                "passwords_cracked": 6.377
+            },
+            "Frtcharinhash_70%": {
+                "length": 10350207,
+                "unique": 1141910,
+                "collisions_rate": 88.96727379462072,
+                "coverage": 7.727964496746691,
+                "passwords_cracked": 7.787
+            },
+            "Frtcharinhash_100%": {
+                "length": 14800296,
+                "unique": 1279085,
+                "collisions_rate": 91.35770662965119,
+                "coverage": 8.656306949165206,
+                "passwords_cracked": 8.682
+            }
         }
     },
-    "FullRTEndHash": {
-        "FrtEndHash_30%": {
-            "length": 4500090,
-            "unique": 3848520,
-            "collisions_rate": 14.479043752458287,
-            "coverage": 26.045157608760384,
-            "passwords_cracked": 26.047
+    "RT": {
+        "endhash": {
+            "rtEndHash_30%": {
+                "length": 90,
+                "unique": 78,
+                "collisions_rate": 13.33333333333333,
+                "coverage": 0.0005278710500356787,
+                "passwords_cracked": 0.0
+            },
+            "rtEndHash_50%": {
+                "length": 150,
+                "unique": 114,
+                "collisions_rate": 24.0,
+                "coverage": 0.000771503842359838,
+                "passwords_cracked": 0.0
+            },
+            "rtEndHash_70%": {
+                "length": 207,
+                "unique": 162,
+                "collisions_rate": 21.739130434782606,
+                "coverage": 0.0010963475654587173,
+                "passwords_cracked": 0.0
+            },
+            "rtEndHash_100%": {
+                "length": 296,
+                "unique": 206,
+                "collisions_rate": 30.405405405405407,
+                "coverage": 0.0013941209782993564,
+                "passwords_cracked": 0.0
+            }
         },
-        "FrtEndHash_50%": {
-            "length": 7500150,
-            "unique": 5854050,
-            "collisions_rate": 21.94756104877903,
-            "coverage": 39.617737441812366,
-            "passwords_cracked": 39.568
+        "xorshift": {
+            "rtXorShift_30%": {
+                "length": 90,
+                "unique": 79,
+                "collisions_rate": 12.222222222222223,
+                "coverage": 0.0005346386276002386,
+                "passwords_cracked": 0.002
+            },
+            "rtXorShift_50%": {
+                "length": 150,
+                "unique": 125,
+                "collisions_rate": 16.666666666666664,
+                "coverage": 0.0008459471955699978,
+                "passwords_cracked": 0.0
+            },
+            "rtXorShift_70%": {
+                "length": 207,
+                "unique": 157,
+                "collisions_rate": 24.154589371980673,
+                "coverage": 0.0010625096776359173,
+                "passwords_cracked": 0.001
+            },
+            "rtXorShift_100%": {
+                "length": 296,
+                "unique": 200,
+                "collisions_rate": 32.432432432432435,
+                "coverage": 0.0013535155129119965,
+                "passwords_cracked": 0.001
+            }
         },
-        "FrtEndHash_70%": {
-            "length": 10350207,
-            "unique": 7421965,
-            "collisions_rate": 28.291627404166896,
-            "coverage": 50.22872381894944,
-            "passwords_cracked": 50.198
-        },
-        "FrtEndHash_100%": {
-            "length": 14800296,
-            "unique": 9332210,
-            "collisions_rate": 36.9457881112648,
-            "coverage": 63.15645502376231,
-            "passwords_cracked": 63.177
-        }
-    },
-    "FullRTXorShift": {
-        "FrtXorShift_30%": {
-            "length": 4500090,
-            "unique": 3848211,
-            "collisions_rate": 14.485910281794368,
-            "coverage": 26.04306642729294,
-            "passwords_cracked": 26.144
-        },
-        "FrtXorShift_50%": {
-            "length": 7500150,
-            "unique": 5855936,
-            "collisions_rate": 21.922414885035636,
-            "coverage": 39.63050109309913,
-            "passwords_cracked": 39.566
-        },
-        "FrtXorShift_70%": {
-            "length": 10350207,
-            "unique": 7420529,
-            "collisions_rate": 28.30550152281979,
-            "coverage": 50.21900557756672,
-            "passwords_cracked": 50.399
-        },
-        "FrtXorShift_100%": {
-            "length": 14800296,
-            "unique": 9332308,
-            "collisions_rate": 36.945125962345614,
-            "coverage": 63.157118246363645,
-            "passwords_cracked": 63.152
-        }
-    },
-    "RTcharinHash": {
-        "rtcharinhash_30%": {
-            "length": 90,
-            "unique": 90,
-            "collisions_rate": 0.0,
-            "coverage": 0.0006090819808103984,
-            "passwords_cracked": 0.001
-        },
-        "rtcharinhash_50%": {
-            "length": 150,
-            "unique": 150,
-            "collisions_rate": 0.0,
-            "coverage": 0.0010151366346839974,
-            "passwords_cracked": 0.001
-        },
-        "rtcharinhash_70%": {
-            "length": 207,
-            "unique": 207,
-            "collisions_rate": 0.0,
-            "coverage": 0.0014008885558639166,
-            "passwords_cracked": 0.002
-        },
-        "rtcharinhash_100%": {
-            "length": 296,
-            "unique": 296,
-            "collisions_rate": 0.0,
-            "coverage": 0.0020032029591097547,
-            "passwords_cracked": 0.005
-        }
-    },
-    "RTEndHash": {
-        "rtXorShift_30%": {
-            "length": 90,
-            "unique": 90,
-            "collisions_rate": 0.0,
-            "coverage": 0.0006090819808103984,
-            "passwords_cracked": 0.001
-        },
-        "rtXorShift_50%": {
-            "length": 150,
-            "unique": 150,
-            "collisions_rate": 0.0,
-            "coverage": 0.0010151366346839974,
-            "passwords_cracked": 0.0
-        },
-        "rtXorShift_70%": {
-            "length": 207,
-            "unique": 207,
-            "collisions_rate": 0.0,
-            "coverage": 0.0014008885558639166,
-            "passwords_cracked": 0.001
-        },
-        "rtXorShift_100%": {
-            "length": 296,
-            "unique": 296,
-            "collisions_rate": 0.0,
-            "coverage": 0.0020032029591097547,
-            "passwords_cracked": 0.0
-        }
-    },
-    "FrtXorShift": {
-        "rtEndHash_30%": {
-            "length": 90,
-            "unique": 90,
-            "collisions_rate": 0.0,
-            "coverage": 0.0006090819808103984,
-            "passwords_cracked": 0.0
-        },
-        "rtEndHash_50%": {
-            "length": 150,
-            "unique": 150,
-            "collisions_rate": 0.0,
-            "coverage": 0.0010151366346839974,
-            "passwords_cracked": 0.001
-        },
-        "rtEndHash_70%": {
-            "length": 207,
-            "unique": 207,
-            "collisions_rate": 0.0,
-            "coverage": 0.0014008885558639166,
-            "passwords_cracked": 0.002
-        },
-        "rtEndHash_100%": {
-            "length": 296,
-            "unique": 296,
-            "collisions_rate": 0.0,
-            "coverage": 0.0020032029591097547,
-            "passwords_cracked": 0.002
+        "charinhash": {
+            "rtcharinhash_30%": {
+                "length": 90,
+                "unique": 52,
+                "collisions_rate": 42.22222222222223,
+                "coverage": 0.0003519140333571191,
+                "passwords_cracked": 0.0
+            },
+            "rtcharinhash_50%": {
+                "length": 150,
+                "unique": 66,
+                "collisions_rate": 56.00000000000001,
+                "coverage": 0.0004466601192609589,
+                "passwords_cracked": 0.0
+            },
+            "rtcharinhash_70%": {
+                "length": 207,
+                "unique": 64,
+                "collisions_rate": 69.08212560386472,
+                "coverage": 0.0004331249641318389,
+                "passwords_cracked": 0.0
+            },
+            "rtcharinhash_100%": {
+                "length": 296,
+                "unique": 75,
+                "collisions_rate": 74.66216216216216,
+                "coverage": 0.0005075683173419987,
+                "passwords_cracked": 0.001
+            }
         }
     }
 }
